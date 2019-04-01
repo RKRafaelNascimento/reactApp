@@ -1,11 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import First, { Second } from './component'
+import SilvaFamily from './silvaFamily'
 
-ReactDOM.render(
-  <div>
-    <First />
-    <Second />
-  </div>,
-  document.getElementById('app')
-)
+ReactDOM.render(<SilvaFamily />, document.getElementById('app'))
